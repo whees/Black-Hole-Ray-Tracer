@@ -1,0 +1,10 @@
+﻿  main.cpp
+C:\Users\lcuev\Documents\Art\BHRT\BHRT\main.cpp(25,18): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\lcuev\Documents\Art\BHRT\BHRT\main.cpp(27,18): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\lcuev\Documents\Art\BHRT\BHRT\main.cpp(28,18): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\lcuev\Documents\Art\BHRT\BHRT\main.cpp(29,23): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\lcuev\Documents\Art\BHRT\BHRT\main.cpp(34,102): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\lcuev\Documents\Art\BHRT\BHRT\main.cpp(34,97): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\lcuev\Documents\Art\BHRT\BHRT\main.cpp(55,16): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\lcuev\Documents\Art\BHRT\BHRT\main.cpp(59,16): warning C4305: '-=': truncation from 'double' to 'float'
+  BHRT.vcxproj -> C:\Users\lcuev\Documents\Art\BHRT\x64\Debug\BHRT.exe
