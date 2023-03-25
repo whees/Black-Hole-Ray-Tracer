@@ -146,7 +146,6 @@
     <ClCompile Include="Camera.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Quat.cpp" />
-    <ClCompile Include="randomize.cpp" />
     <ClCompile Include="Ray.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -4,7 +4,6 @@
 #include "Ray.h"
 #include "SDL.h"
 #include "Camera.h"
-#include "randomize.cpp"
 #include <time.h>
 #include <cstdlib>
 #undef main

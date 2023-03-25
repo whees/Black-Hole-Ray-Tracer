@@ -1,19 +1,2 @@
-﻿  main.cpp
-C:\Users\lcuev\Documents\Art\BHRT\BHRT\main.cpp(37,18): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\lcuev\Documents\Art\BHRT\BHRT\main.cpp(40,18): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\lcuev\Documents\Art\BHRT\BHRT\main.cpp(41,17): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\lcuev\Documents\Art\BHRT\BHRT\main.cpp(42,23): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\lcuev\Documents\Art\BHRT\BHRT\main.cpp(49,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\lcuev\Documents\Art\BHRT\BHRT\main.cpp(51,34): warning C4244: 'initializing': conversion from 'float' to 'size_t', possible loss of data
-C:\Users\lcuev\Documents\Art\BHRT\BHRT\main.cpp(54,77): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\lcuev\Documents\Art\BHRT\BHRT\main.cpp(55,111): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\lcuev\Documents\Art\BHRT\BHRT\main.cpp(55,100): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\lcuev\Documents\Art\BHRT\BHRT\main.cpp(65,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\lcuev\Documents\Art\BHRT\BHRT\main.cpp(83,24): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\lcuev\Documents\Art\BHRT\BHRT\main.cpp(100,18): warning C4305: '+=': truncation from 'double' to 'float'
-C:\Users\lcuev\Documents\Art\BHRT\BHRT\main.cpp(104,18): warning C4305: '-=': truncation from 'double' to 'float'
-C:\Users\lcuev\Documents\Art\BHRT\BHRT\main.cpp(108,18): warning C4305: '*=': truncation from 'double' to 'float'
-C:\Users\lcuev\Documents\Art\BHRT\BHRT\main.cpp(112,18): warning C4305: '/=': truncation from 'double' to 'float'
-C:\Users\lcuev\Documents\Art\BHRT\BHRT\main.cpp(117,19): warning C4305: '-=': truncation from 'double' to 'float'
-C:\Users\lcuev\Documents\Art\BHRT\BHRT\main.cpp(121,19): warning C4305: '+=': truncation from 'double' to 'float'
-  BHRT.vcxproj -> C:\Users\lcuev\Documents\Art\BHRT\x64\Debug\BHRT.exe
+﻿  Ray.cpp
+  BHRT.vcxproj -> C:\Users\lcuev\Documents\Art\Black-Hole-Ray-Tracer\x64\Debug\BHRT.exe
