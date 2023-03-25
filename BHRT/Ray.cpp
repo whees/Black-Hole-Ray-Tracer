@@ -1,13 +1,7 @@
 #include "Ray.h"
 #include <cmath>
 #include <iostream>
-#ifdef _DEBUG
-#define DBG_NEW new ( _NORMAL_BLOCK , __FILE__ , __LINE__ )
-// Replace _NORMAL_BLOCK with _CLIENT_BLOCK if you want the
-// allocations to be of _CLIENT_BLOCK type
-#else
-#define DBG_NEW new
-#endif
+
 
 
 using namespace std;
@@ -23,7 +17,7 @@ Ray::Ray()
 	p = 0;
 	u = 1 / pos.norm();
 	M = 1;
-	span = 2 * 3.1415;
+	span = float(2.0 * 3.1415);
 	RES = 100;
 	tdot = span / RES;
 	interval = 0;
@@ -74,7 +68,7 @@ bool Ray::trace()
 				out = true;
 			break;
 		}
-		else if(pos.norm() < M * 2 || pos.norm() > 50)
+		else if(pos.norm() < 2*M || pos.norm() > 20)
 		{
 			break;
 		}
@@ -90,7 +84,7 @@ bool Ray::trace()
 		}
 
 		float new_r = pos.norm();
-		interval += sqrt(pow(pos.norm() - r, 2) + pow(r * tdot, 2));
+		interval += float(sqrt(pow(pos.norm() - r, 2) + pow(r * tdot, 2)));
 
 		p += tdot * pdot();
 		u = 1 / new_r;
