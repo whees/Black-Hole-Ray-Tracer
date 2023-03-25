@@ -1,11 +1,11 @@
 # Black-Hole-Ray-Tracer
-##Description
+## Description
 This program simulates
 the picture a camera would take  
 of a chess board directly 
 behind a black hole.
   
-##Controls:
+## Controls:
 Left: rotate left  
 Right: rotate right  
 Up: zoom in  
